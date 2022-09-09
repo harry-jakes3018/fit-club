@@ -1,9 +1,10 @@
 import "./App.css";
+import HeroSection from "./components/Hero Section/HeroSection";
 
 function App() {
     return (
         <div className="App">
-            <span style={{ color: "white" }}>Jitendra Garg</span>
+            <HeroSection />
         </div>
     );
 }
